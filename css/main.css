@@ -1,7 +1,54 @@
 html {
-
+  font-family: Georgia, serif;
+  color: #fff;
 }
 
-*, *::before, *::after {
+/* Setting position of wrapper */
+
+.relative {
+  position: relative;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  background-color: #efefef;
+  border-color: #efefef;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-height: 500px;
+}
+
+.wrapper {
+  background-image: linear-gradient(to bottom, #495562, #495562);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .wrapper {
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+  }
+
+  .absolute {
+    position: absolute;
+    top: 273px;
+  }
+
+  .btn-ghost {
+    color: #fff;
+    border-color: #fff;
+  }
 
 }
