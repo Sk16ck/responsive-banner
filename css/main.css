@@ -3,12 +3,6 @@ html {
   color: #fff;
 }
 
-/* Setting position of wrapper */
-
-.relative {
-  position: relative;
-}
-
 .btn-ghost {
   color: #fff;
   border-color: #97a49b;
@@ -44,6 +38,10 @@ img {
   .absolute {
     position: absolute;
     top: 273px;
+  }
+
+  .relative {
+    position: relative;
   }
 
   .btn-ghost {
